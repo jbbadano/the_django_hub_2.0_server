@@ -14,7 +14,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -125,7 +124,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "https://thedjangohub.netlify.app"
+    "https://thedjangohub.netlify.app",
+    #"http://localhost:3000"
 ]
 
 # Configure Django App for Heroku.
