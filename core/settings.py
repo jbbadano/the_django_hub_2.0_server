@@ -123,3 +123,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ]
+
+# Configure Django App for Heroku.
+import django_on_heroku
+django_on_heroku.settings(locals())
