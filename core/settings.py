@@ -125,7 +125,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "https://thedjangohub.netlify.app/"
+    "https://thedjangohub.netlify.app"
 ]
 
 # Configure Django App for Heroku.
