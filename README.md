@@ -11,3 +11,7 @@ to the **React** [client side code](https://github.com/jbbadano/the_django_hub_2
 connect the backend API with the React frontend, which consumes the API responses. For the database, I used the **Postgres SQL** data store provided by Heroku, which I find a
 lot more scalable than the SQLite database I used for the original The Django Hub project. I am happy for having had success in this more ambitious and modern approach of 
 structuring the project architecture and deployment. I hope that you enjoy visiting [The Django Hub 2.0](https://thedjangohub.netlify.app/)!
+
+## Next steps
+
+Although I'm happy with how I modernized The Django Hub, the project is still incomplete. The next steps I am working on are establishing some form of user authentication (specifically I'm working with JWT) and letting users of the blog access individual posts.
